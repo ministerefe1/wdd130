@@ -28,6 +28,8 @@ main {
 #background {
     background-color: #DDEEB2;
     height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 
 body {
@@ -111,13 +113,9 @@ footer a:hover {
     color: black;
 }
 
-.logo {
-    width: 80px;
-}
-
 #logo_link {
+    width: 80px;
     padding-top: 5px;
-    padding-top: spx;
     justify-self: center;
     align-self: center;
 }
@@ -145,7 +143,7 @@ footer p {
     font-size: 1.2em;
 }
 
-footer p:hover {
+footer p a:hover {
     text-decoration: underline;
 }
 
@@ -185,7 +183,7 @@ nav {
     grid-template-columns: repeat(10, 1fr);
 }
 
-.camping-card, .mountains {
+.card-img, .mountains {
     width: 100%;
 }
 
@@ -204,10 +202,10 @@ nav {
     grid-row: 2/3;
 }
 
-#background {
+/*#background {
     grid-column: 1/11;
     grid-row: 4/9;
-}
+}*/
 
 .mountains {
     width: 100%;
@@ -234,6 +232,10 @@ nav {
     nav a {
         display: block;
         padding: 15px;
+    }
+
+    #hero {
+        margin-top: 0;
     }
 
     #hero-msg {
