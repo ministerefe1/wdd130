@@ -58,6 +58,7 @@ img {
 }
 
 nav a:hover {
+    display: block;
     background-color: #360631;
     cursor: pointer;
     text-decoration: none;
