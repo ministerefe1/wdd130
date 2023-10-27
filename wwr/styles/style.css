@@ -47,10 +47,14 @@ body {
 }
 
 header {
-    background-color: #8F737C;
-    color:  #E7DFC6;
+    /* background-color: #8F737C;
+    color:  #E7DFC6; */
     display: grid;
     grid-template-columns: 150px auto;
+}
+
+img {
+    width: 80px;
 }
 
 nav a:hover {
@@ -113,8 +117,12 @@ footer a:hover {
     color: black;
 }
 
+.logo {
+    width: 80px;
+    /*border-radius: 50%;*/
+  }
+
 #logo_link {
-    width: 80%;
     padding-top: 5px;
     justify-self: center;
     align-self: center;
@@ -232,6 +240,7 @@ nav {
     nav a {
         display: block;
         padding: 15px;
+        color: black;
     }
 
     #hero {
