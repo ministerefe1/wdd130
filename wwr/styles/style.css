@@ -323,7 +323,7 @@ nav-1 a:hover {
         color: #6f7364;
     }
 
-    .rivers-card, .camping-card, .rapids-card {
+    .rivers-card, .camping-card, .rapids-card, {
         margin: 50px auto;
         width: 60%;
     }
