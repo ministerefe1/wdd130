@@ -222,7 +222,7 @@ nav {
 
 nav-1 a {
     text-align: center;
-    color:  black;
+    color:  #E7DFC6;
     text-decoration: none;
     padding: 35px;
 }
@@ -264,7 +264,7 @@ nav-1 a:hover {
     background-color: transparent;
     width: 100%;
     height: 400px;
-    border: 5px solid black;
+    border: 10px solid black;
     box-shadow: 5px 5px 10px #6f7364;    
 }
 
@@ -274,7 +274,7 @@ nav-1 a:hover {
         height: auto;
     }
 
-    nav, footer {
+    nav, nav-1, footer {
         flex-direction: column;
     }
 
@@ -289,6 +289,12 @@ nav-1 a:hover {
         padding: 15px;
         color: black;
     }
+    
+    .bighorn-card {
+        display: block;
+        width: 80%;
+        margin-left: 50px;
+    }
 
     #hero {
         margin-top: 0;
@@ -298,8 +304,14 @@ nav-1 a:hover {
         margin-top: 0;
     }
 
+    .message {
+        display: block;
+        width: auto;
+        margin: 0;
+    }
+
     #hero-msg h4 {
-        display: none;
+        display: block;
     }
 
     .home-title {
@@ -325,6 +337,9 @@ nav-1 a:hover {
     footer {
         margin-top: 25px;
     }
+
+    
+    
     
 }
 
