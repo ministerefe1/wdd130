@@ -245,7 +245,6 @@ nav-1 a:hover {
     text-align: start;
     line-height: 1.5;
     margin: 20px;
-    background-color: none;
     display: block; /* Make it a block-level element */
     width: 200%;  
 }
