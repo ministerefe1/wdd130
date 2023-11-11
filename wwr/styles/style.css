@@ -246,8 +246,7 @@ nav-1 a:hover {
     line-height: 1.5;
     margin: 20px;
     background-color: none;
-    padding: 20px;
-    display: inline-block; /* Make it a block-level element */
+    display: block; /* Make it a block-level element */
     width: 200%;  
 }
 
@@ -267,7 +266,7 @@ nav-1 a:hover {
 }
 .card-img1 {
     background-color: transparent;
-    width: 100%;
+    width: 80%;
     height: 600px;
     border: 10px solid black;
     box-shadow: 5px 5px 10px #6f7364;    
@@ -311,7 +310,8 @@ nav-1 a:hover {
 
     .message {
         display: block;
-        margin: 0;
+        margin: auto;
+        width: auto;
     }
 
     #hero-msg h4 {
