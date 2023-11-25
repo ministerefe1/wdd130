@@ -270,7 +270,7 @@ section:nth-of-type(1) p:nth-of-type(7) {
 }
 
 section:nth-of-type(1) p:nth-of-type(9) {
-  margin-top: 20px;
+  margin-top: -20px;
   margin-bottom: 15px;
 }
 
@@ -381,10 +381,10 @@ footer a {
     text-decoration: none;
 }
 
-
+/* 
 div {
     text-align: center;
-}
+} */
 form {
     /* Center the form on the page */
     margin: 0 auto;
@@ -478,7 +478,7 @@ form {
   } */
 
     /* Add this CSS rule to your existing stylesheet */
-  section p:contains("DevGlimpse"),
+  /* section p:contains("DevGlimpse"),
   section p:contains("Why DevGlimpse"),
   section p:contains("The Journey of Efe"),
   section p:contains("What to Expect"),
@@ -488,7 +488,7 @@ form {
   section ol:contains("Community Building"),
   section ol:contains("Personal Connection") {
       text-align: left;
-  }
+  } */
 
 
 #feedback {
