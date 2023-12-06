@@ -728,31 +728,34 @@ form {
 
 }
   
-@media screen and (max-width: 900px) {
-  .grid-mount {
-    display: block;
-    width: 80%;
-    grid-template-columns: 1fr; /* Change to a single column layout on small screens */
-    margin: 0 auto;
+/* Your existing styles */
+
+/* Adjustments for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 900px) {
+  main {
+      flex-direction: column; /* Stack items vertically on small screens */
   }
 
-  .msg {
-    display:block;
-    width: 800%;
-    grid-column: span 1; /* Span the full width of the container on small screens */
-    margin: 0 auto;
-    margin-top: 250px;
-  }
-
-  .mountains {
-    margin-left: -70px; /* Reset left margin on small screens */
+  .container-1,
+  .paragraph-container {
+      width: 100%; /* Full width on small screens */
   }
 }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+/* Larger screens (e.g., tablets and desktops) */
+@media only screen and (min-width: 900px) {
+  .container-1 {
+      width: 45%; /* Adjust the width as needed */
+      margin-top: 10px;
+  }
+
+  .paragraph-container {
+      width: 45%; /* Adjust the width as needed */
+  }
 }
+
+
+
 
 
                        
