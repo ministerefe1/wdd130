@@ -746,7 +746,6 @@ form {
 @media only screen and (min-width: 900px) {
   .container-1 {
       width: 45%; /* Adjust the width as needed */
-      margin-top: 10px;
   }
 
   .paragraph-container {
