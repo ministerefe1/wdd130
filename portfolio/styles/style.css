@@ -247,7 +247,7 @@ section:nth-of-type(2) p:nth-of-type(1) {
 }
 
 .msg p {
-  font-size: .5em;
+  font-size: .7em;
   padding-bottom: 15px;
 }
 
@@ -382,7 +382,7 @@ form {
     display: inline-block;
     width: 90px;
     text-align: right;
-    padding: 1.9em;
+    padding: 0,5em;
   }
   
   input,
