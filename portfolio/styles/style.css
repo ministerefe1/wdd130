@@ -40,7 +40,7 @@
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
-    text-align: center;
+    /* text-align: center; */
     background-color: #0F0F0E;
     color: #D9D0DE;
   }
@@ -136,7 +136,7 @@ main section {
   margin: 0;
   text-align: left;
   margin-left: 25px;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   margin-bottom: 20px;
 }
 
@@ -287,6 +287,7 @@ section:nth-of-type(2) p:nth-of-type(1) {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* define your columns */
   grid-gap: 20px;
+  padding-top: 20px;
 }
 
 .card-img {
@@ -337,7 +338,7 @@ footer {
     background-color: #333745;
     color: #D9D0DE;
     padding: 25px 50px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -356,6 +357,43 @@ footer a {
 div {
     text-align: center;
 } */
+
+/* CONTACT PAGE */
+body.contact {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  /* text-align: center; */
+  background-color: #0F0F0E;
+  color: #D9D0DE;
+}
+
+main.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container-1 {
+  width: 45%; /* Adjust the width as needed */
+}
+
+.paragraph-container {
+  width: 40%; /* Adjust the width as needed */
+  margin-top: 110px;
+  padding: 10px;
+}
+
+iframe {
+/* margin-top: 120px; */
+width: 100%;
+}
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
@@ -455,16 +493,24 @@ form {
 }
 
 .container {
-  position: relative;
-  width: 60%;
-  text-align: center;
+  /* position:relative; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  /* width: 60%; */
+  /* text-align: center; */
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }
 
 .image {
   display: block;
-  width: 50%;
+  width: 70%;
   height: auto;
-  margin-left: 30px;
+  margin-left: 80px;
 }
 
 .overlay {
@@ -480,9 +526,7 @@ form {
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
-  opacity: 1;
-}
+
 
 .text {
   color: white;
