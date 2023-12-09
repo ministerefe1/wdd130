@@ -338,24 +338,23 @@ body.contact {
   color: #D9D0DE;
 }
 
-main.contact{
+main.contact {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.article-grid{
+.article-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
-.container-1 {
-  width: 45%; /* Adjust the width as needed */
+  gap: 20px; /* Adjust the gap between grid items as needed */
 }
 
+.container-1,
 .paragraph-container {
-  width: 40%; /* Adjust the width as needed */
+  width: 45%; /* Adjust the width as needed */
   margin-top: 110px;
-  padding: 10px;
+  /* padding: -20px; */
 }
 
 iframe {
@@ -559,32 +558,20 @@ form {
 }
 
 /* Adjustments for smaller screens (e.g., mobile devices) */
-@media only screen and (max-width: 900px) {
-  main {
-      flex-direction: column; /* Stack items vertically on small screens */
-      align-items: center;
-  }
-
-  .container-1,
-  .paragraph-container {
-    width: 45%; /* Full width on small screens */
-  }
-}
-
-/* Larger screens (e.g., tablets and desktops) */
-@media only screen and (min-width: 900px) {
-  .container-1 {
-      width: auto; /* Adjust the width as needed */
-  }
-
+/*  */
+@media only screen and (max-width: 768px) {
   .article-grid {
     grid-template-columns: 1fr; /* Display grid items in a single column on smaller screens */
   }
 
+  .container-1 {
+    width: 100%; /* Make container-1 full width on smaller screens */
+    margin: auto;
+  }
 
   .paragraph-container {
-     width: 100%; /* Adjust the width as needed */
-   
+    width: auto; /* Allow paragraph-container to take full width and stack */
+    margin: auto;
   }
 }
 
@@ -620,7 +607,7 @@ form {
     display: none;
   }
 
-
+}
 
 
                        
