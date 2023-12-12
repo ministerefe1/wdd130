@@ -212,6 +212,8 @@ section:nth-of-type(2) p:nth-of-type(1) {
   margin-left: 25px;
 }
 
+/* About me */
+
 .grid-mount {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -250,9 +252,14 @@ section:nth-of-type(2) p:nth-of-type(1) {
   margin-top: 15px;
 }
 
+
 .messages {
   text-align: justify;
 
+}
+
+.messages h1 {
+  margin-left: 20px;
 }
 
 .messages p {
